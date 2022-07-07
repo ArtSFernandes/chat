@@ -1,4 +1,3 @@
-// import a from"https://deusdedit2.github.io/chat/config.js";
 const a = {
   "nome":"Júlia Oliveirinha",
   "pfp": "https://cdn-fkhhj.nitrocdn.com/NzMSCVGYZwagaJhSsXsFxknVljZFRtCf/assets/static/optimized/5a/29/72ef4d47d5dc1dbfddafa4843da7f5be.CgzWoRN0_t.jpg",
@@ -14,7 +13,7 @@ const a = {
   "link": "https://dominio.com"
 
 }
-let clock=document.querySelector("#clock");function getClock(){let a=new Date,b=String(a.getHours()).padStart(2,"0"),c=String(a.getMinutes()).padStart(2,"0");clock.innerText=`${b}:${c}`}function timeout(a){return new Promise(b=>setTimeout(b,a))}async function sleep(a,b,...c){return await timeout(a),b(...c)}getClock(),setInterval(getClock,1e3),document.addEventListener("DOMContentLoaded",()=>{let c=document.getElementById("name"),d=document.getElementById("image_header"),f=document.getElementById("messageinner");c.innerText+=a.nome,d.src=a.pfp;for(var g,b=0,e=a.primeiras.length;b<e;b++)setTimeout(async function(b){0==b?((g=document.createElement("div")).setAttribute("id",`message_${[b]}`),g.innerHTML+=`
+let clock=document.querySelector("#clock");function getClock(){let a=new Date,b=String(a.getHours()).padStart(2,"0"),c=String(a.getMinutes()).padStart(2,"0");clock.innerText=`${b}:${c}`}function timeout(a){return new Promise(b=>setTimeout(b,a))}async function sleep(a,b,...c){return await timeout(a),b(...c)}getClock(),setInterval(getClock,1e3),document.addEventListener("DOMContentLoaded",()=>{let c=document.getElementById("name"),d=document.getElementById("image__header"),f=document.getElementById("message__inner");c.innerText+=a.nome,d.src=a.pfp;for(var g,b=0,e=a.primeiras.length;b<e;b++)setTimeout(async function(b){0==b?((g=document.createElement("div")).setAttribute("id",`message__${[b]}`),g.innerHTML+=`
                         <div class="message__box -send -show" style="display: block;">
                         <div style="background-image: url(&quot;${a.pfp}&quot;);" class="profile lazyloaded">
                         </div>
