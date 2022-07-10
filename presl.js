@@ -1,6 +1,6 @@
 const a = {
   "nome":"Júlia Oliveira",
-  "pfp": "https://i.pinimg.com/736x/c2/c8/ca/c2c8ca1f45def25335ebba5b0f530bd1.jp",
+  "pfp": "https://i.pinimg.com/736x/c2/c8/ca/c2c8ca1f45def25335ebba5b0f530bd1.jpg",
   "tempo": 2200,
   "temporesposta": 2700,
   "primeiras": [
