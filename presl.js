@@ -7,7 +7,7 @@ const a = {
       "Olá, meu nome é Júlia Oliveira",
       "Preciso compartilhar com você um SEGREDO pouco conhecido que eu mesma experimentei.",
       "Antes de contar, quero te fazer uma pergunta!",
-      "Conhece o \"Aplicativo Secreto\" que está ajudando as pessoas a descobrirem tudo na relação?"
+      "Conhece o \"Método Secreto\" que está ajudando as pessoas a descobrirem tudo na relação?"
   ],
   "falalink": "Certo, vou te contar! Clique no botão abaixo",
   "link": "https://parceirosamigospro.online/tkt2/"
