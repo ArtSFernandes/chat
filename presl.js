@@ -1,6 +1,6 @@
 const a = {
   "nome":"Júlia Oliveira",
-  "pfp": "https://i.pinimg.com/736x/c2/c8/ca/c2c8ca1f45def25335ebba5b0f530bd1.jpg",
+  "pfp": "https://parceirosamigospro.online/wp-content/uploads/2022/07/c2c8ca1f45def25335ebba5b0f530bd1-617x1024.jpg",
   "tempo": 2200,
   "temporesposta": 2700,
   "primeiras": [
