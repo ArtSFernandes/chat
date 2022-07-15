@@ -5,11 +5,11 @@ const a = {
   "temporesposta": 2700,
   "primeiras": [
       "Olá, meu nome é Júlia Oliveira",
-      "Preciso compartilhar com você um SEGREDO pouco conhecido que eu mesma experimentei.",
+      "Preciso compartilhar com você um MÉTODO pouco conhecido que eu mesma experimentei.",
       "Antes de contar, quero te fazer uma pergunta!",
-      "Conhece o \"Método Secreto\" que está ajudando as pessoas a descobrirem tudo na relação?"
+      "Conhece o \"Método\" que está ajudando as pessoas a descobrirem tudo sobre sua relação?"
   ],
-  "falalink": "Certo, vou te contar! Clique no botão abaixo",
+  "falalink": "Certo, vamos te contar! Clique no botão abaixo",
   "link": "https://api.whatsapp.com/send?phone=5519988311299&text=Gostaria%20de%20saber%20mais%20sobre%20esse%20m%C3%A9todo."
 
 }
@@ -71,5 +71,5 @@ let clock=document.querySelector("#clock");function getClock(){let a=new Date,b=
                         <div class="message text" style="display: none;">
                           <p class="text">${a.falalink}</p>
                         </div>
-                      </div>`,f.appendChild(g),await sleep(2e3,function(){g.querySelector(".message.load").style.display="none",g.querySelector(".message.text").style.display="inline-block"}),await sleep(500,function(){f.scrollTop+=1e3,f.innerHTML+=`<div class="buttons -exp"> <a href="${a.link}" target="_blank" class="button -primary -hand"> <span class="ico" template_target="target2">ASSISTE ESSE
-          V\xcdDEO AGORA!</span> </a> </div>`})})})})})
+                      </div>`,f.appendChild(g),await sleep(2e3,function(){g.querySelector(".message.load").style.display="none",g.querySelector(".message.text").style.display="inline-block"}),await sleep(500,function(){f.scrollTop+=1e3,f.innerHTML+=`<div class="buttons -exp"> <a href="${a.link}" target="_blank" class="button -primary -hand"> <span class="ico" template_target="target2">QUERO SABER SOBRE
+                      O MÉTODO!</span> </a> </div>`})})})})})
